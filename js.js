@@ -100,7 +100,7 @@ class Polinomio{
                 }
                 else {
                     if(this.lista[j+1].print() != ""){
-                        resul += (this.lista[j].print() + " - ")
+                        resul += (this.lista[j].print() + " + ")
                     }
                     else {
                         resul += (this.lista[j].print())
